@@ -12,4 +12,5 @@ class Account:
             raise ValueError("No negatives")
         self.__balance = value
 
-       
+almaz = Account(1500)
+print("almaz:", almaz.balance)  # Output: 1500
